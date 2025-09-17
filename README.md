@@ -31,7 +31,7 @@ The project follows **current industry standards** for security and API developm
 
 ## 🛠️ Tech Stack
 
-- **Framework:** .NET 6/7 Web API  
+- **Framework:** .NET 8 Web API  
 - **Database:** Microsoft SQL Server  
 - **ORM:** Entity Framework Core  
 - **Authentication:** JWT (JSON Web Tokens)  
@@ -39,17 +39,3 @@ The project follows **current industry standards** for security and API developm
 - **Query Language:** GraphQL  
 - **Authorization:** Custom Claims & Policies  
 
----
-
-## 📂 Project Structure
-
-```plaintext
-📦 ProjectRoot
- ┣ 📂 Controllers       # API controllers (REST + GraphQL)
- ┣ 📂 Data             # EF Core DbContext, Migrations
- ┣ 📂 Middleware       # Custom middleware for token handling
- ┣ 📂 Models           # Entity and DTO classes
- ┣ 📂 Services         # Authentication, Token, and Business Logic
- ┣ 📂 GraphQL          # GraphQL schemas, resolvers, queries
- ┣ 📂 Config           # JWT, Swagger, DB configurations
- ┗ README.md           # Project documentation
